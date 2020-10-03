@@ -1,0 +1,15 @@
+.container
+{
+    width: 100%;
+}
+
+.form
+{
+    border: 2px solid grey;
+    padding: 15px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 10px 0px auto ;
+}
