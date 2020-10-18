@@ -2,13 +2,17 @@
 {
     width: 100%;
     padding-bottom: 10px;
-    border-bottom: 2px solid grey;
     display: flex;
     flex-wrap: wrap;
+    margin-top: 10px;
 }
 
 .logo
 {
+    color: #dfe6e7;
+    background-color: #302613;
+    padding: 10px;
+    border-radius: 30px;
     border: 2px solid black;
     margin: 5px;
 }
@@ -38,6 +42,9 @@
 
 .nav .btns button
 {
-    padding: 5px;
+    border-radius: 5px;
+    color: #dfe6e7;
+    background-color: #302613;
+    padding: 10px; 
     margin: 5px;
 }

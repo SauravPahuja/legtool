@@ -1,6 +1,7 @@
 form
 {
-    width:100%
+    width:100%;
+    margin-top: 30px;
 }
 .user, .pwd, .btn, .forgotlink
 {
@@ -14,18 +15,30 @@ form
 }
 .input input
 {
-    margin: 4px 0px;
-    height: 25px;
-    padding-left: 10px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    font-size: 15px;
+    padding: 10px;
+    margin: 5px 0px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
 }
 
 .btn-login
 {
+    border-radius: 5px;
+    color: #dfe6e7;
+    background-color: #302613;
     font-size: 1.0rem;
     padding: 3px 67px;
 }
 .btn-register
 {
+    border-radius: 5px;
+    color: #dfe6e7;
+    background-color: #302613;
     font-size: 1.0rem;
     padding: 3px 39px;
 }

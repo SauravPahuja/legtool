@@ -1,15 +1,31 @@
 .container
 {
     width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+    background-color: #000;
+}
+
+img
+{
+    max-width: 100%;
+    opacity: 0.7;
 }
 
 .form
 {
-    border: 2px solid grey;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 3%;
+    bottom: 10%;
     padding: 15px;
     width: 30%;
     display: flex;
     align-items: center;
     flex-direction: column;
     margin: 10px 10px 0px auto ;
+    background-color: #929696ad;
+    border-radius: 10px;
 }
